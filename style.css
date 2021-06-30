@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 2px 2px;
+  margin-bottom: 7px;
+  border: lightgray 1px solid;
+  width: 18rem;
+  height: 2.25rem;
+}
+
+button {
+  display: flex;
+  width: 18rem;
+  height: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  background-color: dodgerblue;
+  border-radius: 7px 7px;
+  border: dodgerblue 1px solid;
+  color: white;
+}
+
+button:disabled {
+  background-color: rgb(145, 200, 255);
+  border: rgb(145, 200, 255) 1px solid;
+}
+
+button img {
+  height: 25px;
+}
+
+.cadastre {
+  margin: 0.95rem;
+  width: 15rem;
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.or {
+  margin: 0.95rem;
+  color: grey;
+}
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+  height: 100vh;
+}
+
+.main-container img {
+  width: initial;
+  height: 40rem;
+}
+
+.PHONE{
+  padding-right: 5rem;
+}
+
+.instagram-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+  margin-top: 5px;
+}
+
+.white-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 23.5rem;
+  padding: 1.3rem 0;
+  border: 1px lightgrey solid;
+  margin-bottom: 15px;
+}
+
+.white-boxes img{
+  height: 75%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.connect {
+  color: rgb(0, 149, 249);
+}
+
+.download-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 23.5rem;
+}
+
+.download-box img{
+  height: 100%;
+}
+
+.AppLogos {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.ways {
+  height: 3rem;
+  width: 10rem;
+}
+
+@media(max-width: 1024px){
+    .PHONE{
+      display: none;
+    }
+}
